@@ -18,5 +18,9 @@ def cricket(run):
         print("Please enter numbers else enter exit to exit the code.")
         cricket(run)
 
+def speak_balls():
+    print("Remaining Balls are: ", 6-len(each_ball))
+    
 cricket(0)
 print(each_ball)
+
